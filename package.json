@@ -1,0 +1,28 @@
+{
+  "name": "schoolmealmcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "schoolmealmcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "type": "module",
+  "keywords": [],
+  "author": "3x-haust",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "school-kr": "^3.1.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2"
+  }
+}
